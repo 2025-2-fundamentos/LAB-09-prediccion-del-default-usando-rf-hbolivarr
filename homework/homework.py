@@ -225,7 +225,7 @@ def matriz(modelo, x_train, y_train, x_test, y_test, ruta='files/output/metrics.
 
 # ------------------- EJECUCIÓN PRINCIPAL -------------------
 
-if _name_ == "_main_":
+if __name__ == "__main__":
 
     os.makedirs("files/models", exist_ok=True)
     os.makedirs("files/output", exist_ok=True)
